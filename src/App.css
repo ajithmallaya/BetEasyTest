@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: linear-gradient(to left, #8935c0, #500079);
+  text-align: center;
+  height: 80px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  border: 1px solid #dedede;
+  border-radius: 0;
+  width:800px;
+  margin-top: 40px;
+  left:20%;
+  position: absolute;
+}
+
+.races .race__item {
+height: 465px;
+width: 618px;
+align-items: center;
+}
+
+.races .flex {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.races  .col-3 {
+  width: 33.33%;
+}
+
+.races .items-section {
+  box-shadow: 0px 1px 0px 0px #d2d3d3;
+  color: #231f20;
+  padding: 20px;
+}
+
+.races .race-header {
+  border-top: 1px solid #d2d3d3;
+  padding: 20px;
+  color: #706D6E;
+}
+
+.races .event-name {
+  font-weight: bold;
+  font-size: 16px;
+  color: #231f20;
+}
+
+.races .event-name,
+.races .event-venue,
+.races .timestamp {
+  font-size: 16px;
+  color: #231f20;
+}
+
+@media (max-width: 600px) {
+  .App-intro {
+    left:0px;
+  }
+  .races .flex {
+    flex-direction: column;
+  }
+
+  .races .col-3 {
+    width: 100%;
+    padding: 8px 0;
+  }
+}
